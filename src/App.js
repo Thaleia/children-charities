@@ -1,5 +1,5 @@
 import './App.css';
-import CharityComponent from './CharityComponent';
+import CharityComponent from './components/CharityComponent'
 
 function App() {
   return (
