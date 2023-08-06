@@ -1,0 +1,34 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    
+}
+.charity-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.charity-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.charity {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    max-width: 400px;
+}
