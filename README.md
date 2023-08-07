@@ -1,1 +1,2 @@
-<img width="1054" alt="Screenshot 2023-08-06 at 23 03 02" src="https://github.com/Thaleia/children-charities/assets/42918656/7c106d3e-5ebd-4537-809e-3aaafd86e483">
+
+<img width="1007" alt="Screenshot 2023-08-07 at 14 02 04" src="https://github.com/Thaleia/children-charities/assets/42918656/e9167579-a62f-42f7-a7a3-c638915f63e4">
