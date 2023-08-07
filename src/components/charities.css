@@ -1,10 +1,22 @@
 h1 {
     display: flex;
     justify-content: center;
+    color: rgb(0, 195, 255);
+    text-shadow: 1px 2px blue;
+    font-size: calc(25px + 2vmin);
+    animation: 10s ease-in-out 2 h1move;
+}
+
+@keyframes h1move {
+  25% {text-shadow: 5px 5px 5px blue;}
+  25% {text-shadow: 5px 5px 5px blueviolet;}
+  25% {text-shadow: 5px 5px 5px violet;}
+  25% {text-shadow: 5px 5px 5px pink;}
+
 }
 
 h2 {
-    
+    text-shadow: 1px 2px black;
 }
 .charity-container {
     display: flex;
@@ -17,18 +29,40 @@ h2 {
     align-items: center;
     align-content: center;
     justify-content: center;
+
 }
 
 .charity {
     background-color: white;
     margin: 20px;
     padding: 20px;
-    border: 1px solid black;
-    border-radius: 4px;
+    /* border: 1px solid grey; */
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-direction: column;
     max-width: 400px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    box-shadow: 15px 15px 15px grey;
 }
+img {
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    border-style: outset;
+    border-radius: 8px;
+  }
+
+  ul {
+    list-style-type: none;
+  } 
+
+  p {
+    display: flex;
+    text-align: center;
+    text-shadow: 1px 1px black;
+
+  }
