@@ -1,3 +1,4 @@
+import ButtonWebsite from "./ButtonWebsite";
 
 const Charity = ({ charity }) => (
 
@@ -6,8 +7,7 @@ const Charity = ({ charity }) => (
               <h2>{charity.name}</h2>
               <p>{charity.action}</p>
               <div>
-                <button src={charity.website}>Website</button>
-                <button>Donate</button>
+                <a href={charity.website}>Website</a>
               </div>
           </li>
 );
