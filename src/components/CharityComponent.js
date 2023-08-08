@@ -10,7 +10,7 @@ const CharityComponent = () => {
   const charityData = fetchCharityData();
   return (
     <div className='charity-container'>
-      <h1>Disabled Children Charities</h1>
+      <h1>Charities for Disabled Children</h1>
       <ul className='charity-list'>
         {charities.map(charity => (
           <Charity key={charity.id} charity={charity} />
